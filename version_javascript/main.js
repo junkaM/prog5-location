@@ -1,6 +1,6 @@
 import { createInterface } from 'readline';
-import { ObjetLocationnable } from '../model/objet_locationnable.js';
-import { ServiceLocation } from '../service/service_location.js';
+import { ObjetLocationnable } from './model/objet_locationnable.js';
+import { ServiceLocation } from './service/service_location.js';
 import { parse } from 'date-fns';
 
 class Main {
