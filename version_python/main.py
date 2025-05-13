@@ -3,7 +3,7 @@ from datetime import date
 from model.objet_locationnable import ObjetLocationnable
 from service.service_location import ServiceLocation
 
-class Principale:
+class Main:
     _VOITURE = ObjetLocationnable("voiture")
     _TENTE = ObjetLocationnable("tente")
     _VELO = ObjetLocationnable("vélo")
@@ -61,4 +61,4 @@ class Principale:
         return reponse == "o"
 
 if __name__ == "__main__":
-    Principale.executer()
+    Main.executer()

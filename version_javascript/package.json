@@ -1,0 +1,11 @@
+{
+  "name": "location-system",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node ./main.js"
+  },
+  "dependencies": {
+    "date-fns": "^3.6.0"
+  }
+}
